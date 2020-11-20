@@ -1,7 +1,3 @@
 # CSCI596FINAL
 This is my final project for csci596
-<object data="CloverSurfaces.pdf" type="application/pdf" width="70px" height="40px">
-    <embed src="CloverSurfaces.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="CloverSurfaces.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
