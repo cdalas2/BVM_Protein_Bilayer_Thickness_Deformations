@@ -54,11 +54,8 @@ Since Basset function grow exponentially with increasing order n, floating point
 4. Install OpenMPI (if you want to do multiple protein runs)
 
 
-#### API Reference
+#### Thread count speed up and efficiency benchmarks
 
-```html
-    <p>dummy code</p>
-```
 [Back To The Top](#CSCI596FINAL)
 
 ---
