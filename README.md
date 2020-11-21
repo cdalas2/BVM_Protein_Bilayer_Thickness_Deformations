@@ -1,15 +1,13 @@
 # CSCI596FINAL
 <img src="CloverSurfaces.png " width="250" height="750">
-![Membrane Thickness Deformation Due to embedded proteins](CloverSurfaces.png "MembraneSurfaces")
 
-> Boundary Value Method
+> Protein-induced bilayer deformation calculations
 
 ---
 
 ### Table of Contents
 
-- [Physical Problem](#physical-problem)
-- [Computational Problem](#computational-problem)
+- [Description](#description)
 - [How To Use](#computational-problem)
 - [References](#references)
 - [Author Info](#author-info)
@@ -18,7 +16,21 @@
 
 ## Description
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+#### Physical Problem
+
+Using a classical elastic continuum model for lipid bilayers, we investigate the role of protein shape in bilayer deformations.
+
+#### Mathematical Problem
+
+
+
+#### Computational Problem
+
+Since Basset function grow exponentially with increasing order n, floating point overflow issues and matrix conditioning issues manifest. We use Arblib library for arbitrary precision floating point calculations, choosing an appropriate precision to avoid overflow and to offset numerical instability when solving the linear system of boundary equations. 
+
+[Back To The Top](#CSCI596FINAL)
+
+---
 
 #### Software
 
