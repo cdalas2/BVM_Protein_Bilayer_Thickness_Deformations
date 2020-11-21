@@ -16,15 +16,15 @@
 
 ## Description
 
-#### Physical Problem
+#### Physical Objective
 
 Using a classical elastic continuum model for lipid bilayers, we investigate the role of protein shape in bilayer deformations.
 
-#### Mathematical Problem
+#### Mathematical Objective
 
 
 
-#### Computational Problem
+#### Computational Objective
 
 Since Basset function grow exponentially with increasing order n, floating point overflow issues and matrix conditioning issues manifest. We use Arblib library for arbitrary precision floating point calculations, choosing an appropriate precision to avoid overflow and to offset numerical instability when solving the linear system of boundary equations. 
 
