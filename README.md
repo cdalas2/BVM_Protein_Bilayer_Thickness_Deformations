@@ -1,5 +1,5 @@
 # CSCI596FINAL
-<img src="CloverSurfaces.png " width="250" height="300">
+<img src="CloverSurfaces.png " width="250" height="750">
 ![Membrane Thickness Deformation Due to embedded proteins](CloverSurfaces.png "MembraneSurfaces")
 
 > Boundary Value Method
