@@ -8,6 +8,7 @@
 ### Table of Contents
 
 - [Description](#description)
+- [Benchmarks](#benchmarks)
 - [How To Use](#computational-problem)
 - [References](#references)
 - [Author Info](#author-info)
@@ -41,22 +42,38 @@ Since Basset functions grow exponentially with increasing order n, floating poin
 - Carlos_Membrane_Project
 - OpenMP
 - OpenMPI
+- Paraview
 
 [Back To The Top](#CSCI596FINAL)
 
 ---
 
+## Benchmarks
+
+#### Boundary value method benchmarked against the finite element method
+The finite element method converges with decreasing average mesh length.
+Using paraview we can create a pipeline to extract the length data of the mesh elements used in the finite elements method. We average the mesh lengths import the length data into MATLAB and average them. 
+<img src="FEM_mesh.png " width="250" height="750">
+<img src="FEM_edges.png " width="250" height="750">
+<img src="FEM_celldata.png " width="250" height="750">
+We found that an accuracy of about 0.02% can be expected with finite elements of average mesh lengths of about 0.1 nm.
+Testing the boundary value method for several protein shapes, we found that as the boundary value method converges to an agreement with the finite element method of  about 0.02% with increasing truncation length N, which was noted earlier as the expected accuracy of the finite element method with the actual solution.
+
+#### Thread count speed up and efficiency benchmarks
+
+[Back To The Top](#CSCI596FINAL)
+
 ## How To Use
+
 1. $ make clover
 2. $ bash job
+
 #### Installation
+
 1. Download github repo. This will contain the necessary make file, bash script, and source code files
 2. Install Arblib library by Frederick Johansson (version 2.17 or newer). You can build from source [1] or download as a package through anaconda3.
 3. Install OpenMP.
 4. Install OpenMPI (if you want to do multiple protein runs)
-
-
-#### Thread count speed up and efficiency benchmarks
 
 [Back To The Top](#CSCI596FINAL)
 
