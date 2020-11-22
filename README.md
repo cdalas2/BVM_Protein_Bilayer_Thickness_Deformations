@@ -23,7 +23,7 @@ Using a classical elastic continuum model for lipid bilayers, what is the lipid 
 
 #### Framing of the problem in mathematics 
 
-<img src="equations.png " width="1500" height="650">
+<img src="equations.png " width="1500" height="250">
 We truncation the infinite series that represents general form of the bilayer deformation field to N terms and use the truncated form in applying the boundary conditions along the protein-bilayer interface to form a linear system of boundary equations which can be solved for the coefficients A_n,B_n.
 
 
@@ -54,7 +54,7 @@ Since Basset functions grow exponentially with increasing order n, floating poin
 The finite element method converges with decreasing average mesh length.
 Using paraview we can create a pipeline to extract the length data of the mesh elements used in the finite elements method. We average the mesh lengths import the length data into MATLAB and average them. 
 
-<img src="FEM_mesh.png " width="1000" height="500">
+<img src="FEM_mesh.png " width="1000" height="650">
 
 <img src="FEM_edges.png " width="1000" height="1000">
 
