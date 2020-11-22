@@ -76,7 +76,9 @@ Testing the boundary value method for several protein shapes, we found that as t
 ## How To Build And Compile
 
 On a terminal one can build a project run by a make file provided. Then one can compile the project run by a bash script provided. Terminal/command lines are:
+
 $ make deformations
+
 $ bash run_deformations
 
 #### Installation
