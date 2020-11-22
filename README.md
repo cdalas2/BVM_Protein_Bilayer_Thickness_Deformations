@@ -16,12 +16,13 @@
 
 ## Description
 
-#### Physical Objective
+#### Physical Problem
 
-Using a classical elastic continuum model for lipid bilayers, we investigate the role of protein shape in bilayer deformations.
+Using a classical elastic continuum model for lipid bilayers, what is the lipid bilayer deformation induced by a protein of arbitrary shape?
 
 #### Mathematical Objective
 
+<img src="equations.png " width="1500" height="200">
 
 
 #### Computational Objective
