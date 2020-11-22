@@ -10,7 +10,7 @@
 - [Problem Description](#description)
 - [Software](#software)
 - [Benchmarks](#benchmarks)
-- [How To Use](#computational-problem)
+- [Build And Compiling](#building-and-compiling)
 - [References](#references)
 - [Author Info](#author-info)
 
