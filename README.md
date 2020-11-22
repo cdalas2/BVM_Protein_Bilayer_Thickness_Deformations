@@ -45,7 +45,7 @@ We use only open-source software, so our approach is easily accessible to anyone
 - Arblib library (version 2.17 or newer)
 - Carlos_Membrane_Project
 - OpenMP
-- OpenMPI
+- OpenMPI (if you want to do calculations for multiple protein systems)
 - Paraview
 
 [Back To The Top](#CSCI596FINAL)
@@ -89,7 +89,8 @@ $ bash run_deformations.sh
 4. Install OpenMPI (if you want to do multiple protein runs).
 5. Replace paths in make file to arblib library and header files.
 6. Replace paths in bash script to arblib library and Carlos_membrane_project source files.
-7. Change OMP_NUM_THREADS environmental variable to the thread count wanted in the bash script.
+7. Replace paths in main source code file for the location of where the data output is to be saved.
+8. Adjust OMP_NUM_THREADS environmental variable to the thread count wanted in the bash script.
 
 [Back To The Top](#CSCI596FINAL)
 
