@@ -22,7 +22,7 @@ Using a classical elastic continuum model for lipid bilayers, what is the lipid 
 
 #### Mathematical Objective
 
-<img src="equations.png " width="1000" height="750">
+<img src="equations.png " width="1200" height="300">
 
 
 #### Computational Objective
