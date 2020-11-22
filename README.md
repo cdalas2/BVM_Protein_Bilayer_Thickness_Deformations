@@ -79,7 +79,7 @@ On a terminal one can build a project run by a make file provided. Then one can 
 
 $ make deformations
 
-$ bash run_deformations
+$ bash run_deformations.sh
 
 #### Installation
 
