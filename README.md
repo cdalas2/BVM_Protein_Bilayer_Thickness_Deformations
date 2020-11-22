@@ -1,4 +1,4 @@
-# The Boundary Value Method (CSCI596 Final Project)
+# A Boundary Value Method (CSCI596 Final Project)
 <img src="CloverSurfaces.png " width="250" height="750">
 
 > Protein-induced bilayer deformation calculations
@@ -30,7 +30,7 @@ We truncation the infinite series that represents general form of the bilayer de
 
 Since Basset function grow exponentially with increasing order n, floating point overflow issues and matrix conditioning issues manifest. We use Arblib library for arbitrary precision floating point calculations, choosing an appropriate precision to avoid overflow and to offset numerical instability when solving the linear system of boundary equations. 
 
-[Back To The Top](#The Boundary Value Method (CSCI596 Final Project))
+[Back To The Top](#A Boundary Value Method (CSCI596 Final Project))
 
 ---
 
@@ -42,7 +42,7 @@ Since Basset function grow exponentially with increasing order n, floating point
 - OpenMP
 - OpenMPI
 
-[Back To The Top](#The Boundary Value Method (CSCI596 Final Project))
+[Back To The Top](#A Boundary Value Method (CSCI596 Final Project))
 
 ---
 
@@ -58,12 +58,12 @@ Since Basset function grow exponentially with increasing order n, floating point
 
 #### Thread count speed up and efficiency benchmarks
 
-[Back To The Top](#The Boundary Value Method (CSCI596 Final Project))
+[Back To The Top](#A Boundary Value Method (CSCI596 Final Project))
 
 ---
 
 ## References
-[Back To The Top](#The Boundary Value Method (CSCI596 Final Project))
+[Back To The Top](#A Boundary Value Method (CSCI596 Final Project))
 
 ---
 
@@ -72,4 +72,4 @@ Since Basset function grow exponentially with increasing order n, floating point
 - LinkedIn - [Carlos Alas LI](https://www.linkedin.com/in/carlos-alas-6a4643160/)
 - ResearchGate - [Carlos Alas RG](https://www.researchgate.net/profile/Carlos_Alas3)
 
-[Back To The Top](#The Boundary Value Method (CSCI596 Final Project))
+[Back To The Top](#A Boundary Value Method (CSCI596 Final Project))
