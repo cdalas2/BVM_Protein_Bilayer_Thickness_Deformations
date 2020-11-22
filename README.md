@@ -70,7 +70,8 @@ Testing the boundary value method for several protein shapes, we found that as t
 
 ## How To Use
 
-1. $ make clover
+On a terminal one can build a project run by a make file provided. Then one can compile the project run by a bash script provided. 
+1. $ make deformations
 2. $ bash job
 
 #### Installation
