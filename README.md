@@ -30,7 +30,7 @@ We truncation the infinite series that represents general form of the bilayer de
 
 Since Basset function grow exponentially with increasing order n, floating point overflow issues and matrix conditioning issues manifest. We use Arblib library for arbitrary precision floating point calculations, choosing an appropriate precision to avoid overflow and to offset numerical instability when solving the linear system of boundary equations. 
 
-[Back To The Top](# A_Boundary_Value_Method(CSCI596_Final_Project))
+[Back To The Top](#A_Boundary_Value_Method(CSCI596_Final_Project))
 
 ---
 
