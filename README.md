@@ -56,9 +56,9 @@ Using paraview we can create a pipeline to extract the length data of the mesh e
 
 <img src="FEM_mesh.png " width="1000" height="600">
 
-<img src="FEM_edges.png " width="1000" height="1000">
+<img src="FEM_edges.png " width="1000" height="600">
 
-<img src="FEM_celldata.png " width="1000" height="1000">
+<img src="FEM_celldata.png " width="1000" height="600">
 
 We found that an accuracy of about 0.02% can be expected with finite elements of average mesh lengths of about 0.1 nm.
 Testing the boundary value method for several protein shapes, we found that as the boundary value method converges to an agreement with the finite element method of  about 0.02% with increasing truncation length N, which was noted earlier as the expected accuracy of the finite element method with the actual solution.
