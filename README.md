@@ -39,6 +39,8 @@ Since Basset functions grow exponentially with increasing order n, floating poin
 
 ## Software
 
+We use only open-source software, so our approach is easily accessible to anyone with a computer.
+
 - C++
 - Arblib library (version 2.17 or newer)
 - Carlos_Membrane_Project
@@ -100,5 +102,6 @@ $ bash run_deformations
 
 - LinkedIn - [Carlos Alas LI](https://www.linkedin.com/in/carlos-alas-6a4643160/)
 - ResearchGate - [Carlos Alas RG](https://www.researchgate.net/profile/Carlos_Alas3)
+This project was brought to life by Carlos D. Alas under the supervision of Christoph A. Haselwandter
 
 [Back To The Top](#CSCI596FINAL)
