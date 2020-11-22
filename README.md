@@ -7,7 +7,7 @@
 
 ### Table of Contents
 
-- [Problem Description](#description)
+- [Problem Description](#problem-description)
 - [Software](#software)
 - [Benchmarks](#benchmarks)
 - [Build And Compiling](#building-and-compiling)
