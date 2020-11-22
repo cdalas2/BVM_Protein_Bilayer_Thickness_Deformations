@@ -16,17 +16,17 @@
 
 ## Description
 
-#### Physical Problem
+#### Physical problem
 
 Using a classical elastic continuum model for lipid bilayers, what is the lipid bilayer deformation induced by a protein of arbitrary shape?
 
-#### Mathematical Objective
+#### Framing of the problem in mathematics 
 
 <img src="equations.png " width="1500" height="250">
 We truncation the infinite series that represents general form of the bilayer deformation field to N terms and use the truncated form in applying the boundary conditions along the protein-bilayer interface to form a linear system of boundary equations which can be solved for the coefficients A_n,B_n.
 
 
-#### Computational Objective
+#### Computational obstacles and solution
 
 Since Basset function grow exponentially with increasing order n, floating point overflow issues and matrix conditioning issues manifest. We use Arblib library for arbitrary precision floating point calculations, choosing an appropriate precision to avoid overflow and to offset numerical instability when solving the linear system of boundary equations. 
 
