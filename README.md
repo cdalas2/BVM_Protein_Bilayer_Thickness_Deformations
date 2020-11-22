@@ -64,22 +64,27 @@ Using paraview we can create a pipeline to extract the length data of the mesh e
 We found that an accuracy of about 0.02% can be expected with finite elements of average mesh lengths of about 0.1 nm, by comparing it to analytical solutions to simple cases like a cylindrical protein.
 Testing the boundary value method for several protein shapes, we found that as the boundary value method converges to an agreement with the finite element method of  about 0.02% with increasing truncation length N, which was noted earlier as the expected accuracy of the finite element method with the actual solution.
 
-#### Thread count speed up and efficiency benchmarks
+#### OMP thread count speed up and efficiency benchmarks
 
 [Back To The Top](#CSCI596FINAL)
 
+---
+
 ## How To Use
 
-On a terminal one can build a project run by a make file provided. Then one can compile the project run by a bash script provided. 
-1. $ make deformations
-2. $ bash job
+On a terminal one can build a project run by a make file provided. Then one can compile the project run by a bash script provided. Terminal/command lines are:
+$ make deformations
+$ bash run_deformations
 
 #### Installation
 
 1. Download github repo. This will contain the necessary make file, bash script, and source code files
 2. Install Arblib library by Frederick Johansson (version 2.17 or newer). You can build from source [1] or download as a package through anaconda3.
 3. Install OpenMP.
-4. Install OpenMPI (if you want to do multiple protein runs)
+4. Install OpenMPI (if you want to do multiple protein runs).
+5. Replace paths in make file to arblib library and header files.
+6. Replace paths in bash script to arblib library and Carlos_membrane_project source files.
+7. Change OMP_NUM_THREADS environmental variable to the thread count wanted in the bash script.
 
 [Back To The Top](#CSCI596FINAL)
 
