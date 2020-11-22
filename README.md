@@ -10,7 +10,7 @@
 - [Problem Description](#problem-description)
 - [Software](#software)
 - [Benchmarks](#benchmarks)
-- [Build And Compiling](#building-and-compiling)
+- [How To Build And Compile](#how-to-build-and-compile)
 - [References](#references)
 - [Author Info](#author-info)
 
