@@ -54,7 +54,7 @@ Since Basset functions grow exponentially with increasing order n, floating poin
 The finite element method converges with decreasing average mesh length.
 Using paraview we can create a pipeline to extract the length data of the mesh elements used in the finite elements method. We average the mesh lengths import the length data into MATLAB and average them. 
 
-<img src="FEM_mesh.png " width="1000" height="625">
+<img src="FEM_mesh.png " width="1000" height="600">
 
 <img src="FEM_edges.png " width="1000" height="1000">
 
