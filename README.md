@@ -19,12 +19,13 @@
 
 #### Physical problem
 
-Using a classical elastic continuum model for lipid bilayers, what is the lipid bilayer deformation induced by a protein of arbitrary shape?
+Using a classical elastic continuum model for lipid bilayers, can we calculate the lipid bilayer deformation induced by a protein of arbitrary shape?
 
 #### Framing of the problem in mathematics 
 
 <img src="equations.png " width="1500" height="250">
-We truncation the infinite series that represents general form of the bilayer deformation field to N terms and use the truncated form in applying the boundary conditions along the protein-bilayer interface to form a linear system of boundary equations which can be solved for the coefficients A_n,B_n.
+
+We truncation the infinite series that represents the general form of the bilayer deformation field to N terms and applying the boundary conditions along the protein-bilayer interface to form a linear system of boundary equations which can be solved for the coefficients A_n,B_n, for n = 0,1,2,...,N.
 
 
 #### Computational obstacles and solution
