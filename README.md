@@ -23,6 +23,7 @@ Using a classical elastic continuum model for lipid bilayers, what is the lipid 
 #### Mathematical Objective
 
 <img src="equations.png " width="1500" height="200">
+We truncation the infinite series that represents general form of the bilayer deformation field to $N$ terms
 
 
 #### Computational Objective
