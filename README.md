@@ -7,7 +7,8 @@
 
 ### Table of Contents
 
-- [Description](#description)
+- [Problem Description](#description)
+- [Software](#software)
 - [Benchmarks](#benchmarks)
 - [How To Use](#computational-problem)
 - [References](#references)
@@ -15,7 +16,7 @@
 
 ---
 
-## Description
+## Problem Description
 
 #### Physical problem
 
@@ -34,7 +35,9 @@ Since Basset functions grow exponentially with increasing order n, floating poin
 
 [Back To The Top](#CSCI596FINAL)
 
-#### Software
+---
+
+## Software
 
 - C++
 - Arblib library (version 2.17 or newer)
