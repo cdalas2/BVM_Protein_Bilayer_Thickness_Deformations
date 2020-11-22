@@ -52,7 +52,7 @@ Since Basset functions grow exponentially with increasing order n, floating poin
 
 #### Boundary value method benchmarked against the finite element method
 The finite element method converges with decreasing average mesh length.
-Using paraview we can create a pipeline to extract the length data of the mesh elements used in the finite elements method. We average the mesh lengths import the length data into MATLAB and average them. 
+Using paraview we can create a pipeline to extract the length data of the mesh elements used in the finite elements method. We average the mesh lengths and plot the finite element calculations as a function of average mesh length. 
 
 <img src="FEM_mesh.png " width="1000" height="600">
 
@@ -60,7 +60,7 @@ Using paraview we can create a pipeline to extract the length data of the mesh e
 
 <img src="FEM_celldata.png " width="1000" height="600">
 
-We found that an accuracy of about 0.02% can be expected with finite elements of average mesh lengths of about 0.1 nm.
+We found that an accuracy of about 0.02% can be expected with finite elements of average mesh lengths of about 0.1 nm, by comparing it to analytical solutions to simple cases like a cylindrical protein.
 Testing the boundary value method for several protein shapes, we found that as the boundary value method converges to an agreement with the finite element method of  about 0.02% with increasing truncation length N, which was noted earlier as the expected accuracy of the finite element method with the actual solution.
 
 #### Thread count speed up and efficiency benchmarks
