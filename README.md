@@ -1,4 +1,4 @@
-# CSCI596FINAL
+# CSCI596FINAL(The Boundary Value Method)
 <img src="CloverSurfaces.png " width="250" height="750">
 
 > Protein-induced bilayer deformation calculations
