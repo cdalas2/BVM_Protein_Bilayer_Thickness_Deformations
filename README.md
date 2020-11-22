@@ -26,7 +26,7 @@ Using a classical elastic continuum model for lipid bilayers, can we calculate t
 
 <img src="equations.png " width="1500" height="250">
 
-We truncation the infinite series that represents the general form of the bilayer deformation field to a finite number of terms, N, and applying the boundary conditions along the protein-bilayer interface to form a linear system of boundary equations which can be solved for the coefficients A_n,B_n, where n = 0,1,2,...,N.
+We truncation the infinite series that represents the general form of the bilayer deformation field to a finite number of terms, N, and applying the boundary conditions along the protein-bilayer interface to form a linear system of boundary equations which can be solved for the coefficients A_n,B_n, where n = 0,1,2,...,N..
 
 
 #### Computational obstacles and remedy
