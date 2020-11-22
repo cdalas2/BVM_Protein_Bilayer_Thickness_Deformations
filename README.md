@@ -34,8 +34,6 @@ Since Basset functions grow exponentially with increasing order n, floating poin
 
 [Back To The Top](#CSCI596FINAL)
 
----
-
 #### Software
 
 - C++
