@@ -1,7 +1,7 @@
 # CSCI596FINAL
 <img src="clover_bilayer_surface.png">
 
-> A boundary value method for protein-induced bilayer deformation calculations
+> A numerical boundary value method for protein-induced bilayer deformation calculations
 
 ---
 
