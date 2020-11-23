@@ -73,14 +73,6 @@ Testing the boundary value method for several protein shapes, we found that as t
 
 ---
 
-## How To Build And Compile
-
-On a terminal one can build a project run by a make file provided. Then one can compile the project run by a bash script provided. Terminal/command lines are:
-
-$ make deformations
-
-$ bash run_deformations.sh
-
 #### Installation
 
 1. Download github repo. This will contain the necessary make file, bash script, and source code files
@@ -91,6 +83,14 @@ $ bash run_deformations.sh
 6. Replace paths in bash script to arblib library and Carlos_membrane_project source files.
 7. Replace paths in main source code file for the location of where the data output is to be saved.
 8. Adjust OMP_NUM_THREADS environmental variable to the thread count wanted in the bash script.
+
+## How To Build And Compile
+
+On a terminal one can build a project run by a make file provided. Then one can compile the project run by a bash script provided. Terminal/command lines are:
+
+$ make deformations
+
+$ bash run_deformations.sh
 
 [Back To The Top](#CSCI596FINAL)
 
