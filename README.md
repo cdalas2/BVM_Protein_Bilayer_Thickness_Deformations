@@ -59,6 +59,9 @@ We use only open-source software, so our approach is easily accessible to anyone
 
 <img src="speedup.png " width="500" height="375"> <img src="efficiency.png " width="500" height="375">
 
+Our plots show performance benchmarks for a truncation length N = 62 and using floating point precision of about 200 decimal places.
+We got almost a 5 time speed up using only 8 threads. Efficiency decreases with increased thread count.
+
 #### Boundary value method benchmarked against a hybrid of finite elements and discrete Kirchoff triangles method (FEDKTM)
 The hybrid FEDKTM converges with decreasing average mesh length.
 Using paraview we can create a pipeline to extract the length data of the mesh elements used in the FEDKTM. We average the mesh lengths and plot the FEDKTM calculations as a function of average mesh length. 
