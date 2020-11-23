@@ -102,6 +102,10 @@ $ bash run_deformations.sh
 ---
 
 ## References
+
+Osman Kahraman, Peter D. Koch, William S. Klug, and Christoph A. Haselwandter. Architecture and function of mechanosensitive membrane protein lattices.              Scientific Reports, 6(1), Jan 2016.
+
+
 [Back To The Top](#CSCI596FINAL)
 
 ---
