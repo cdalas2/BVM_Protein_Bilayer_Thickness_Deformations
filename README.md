@@ -1,7 +1,7 @@
 # CSCI596FINAL
 <img src="clover_bilayer_surface.png">
 
-> A numerical boundary value method for protein-induced bilayer deformation calculations
+> A numerical boundary value method (BVM) for protein-induced bilayer deformation calculations
 
 ---
 
@@ -11,7 +11,7 @@
 - [Software](#software)
 - [Benchmarks](#benchmarks)
 - [Installation](#installation)
-- [How To Build And Run It](#how-to-build-and-run-it)
+- [How To Compile And Run It](#how-to-compile-and-run-it)
 - [References](#references)
 - [Author Info](#author-info)
 
@@ -55,9 +55,9 @@ We use only open-source software, so our approach is easily accessible to anyone
 
 ## Benchmarks
 
-#### Boundary value method benchmarked against the finite element method
-The finite element method converges with decreasing average mesh length.
-Using paraview we can create a pipeline to extract the length data of the mesh elements used in the finite elements method. We average the mesh lengths and plot the finite element calculations as a function of average mesh length. 
+#### Boundary value method benchmarked against a hybrid of finite elements and discrete Kirchoff triangles method (FEDKTM)
+The hybrid FEDKTM converges with decreasing average mesh length.
+Using paraview we can create a pipeline to extract the length data of the mesh elements used in the FEDKTM. We average the mesh lengths and plot the FEDKTM calculations as a function of average mesh length. 
 
 <img src="FEM_mesh.png " width="1000" height="600">
 
@@ -65,7 +65,7 @@ Using paraview we can create a pipeline to extract the length data of the mesh e
 
 <img src="FEM_celldata.png " width="1000" height="600">
 
-After measuring the accuracy of the finite element method, we compared it with the converged boundary value method and found similar agreement to the accuracy of the finite element method, which show the boundary value method appears to converge to the correct result.
+After measuring the accuracy of the finite element method, we compared it with the converged BVM and found similar agreement to the accuracy of the FEDKTM, which shows the BVM appears to reliably converge to the correct result.
 
 #### OMP thread count speed up and efficiency benchmarks
 
@@ -88,9 +88,9 @@ After measuring the accuracy of the finite element method, we compared it with t
 
 ---
 
-## How To Build And Run It
+## How To Compile And Run It
 
-On a terminal one can build a project run by a make file provided. Then one can compile the project run by a bash script provided. Terminal/command lines are:
+On a terminal one can compile a simulation by a make file provided. Then one can run the simulation by a bash script provided. Terminal/command lines are:
 
 $ make
 
