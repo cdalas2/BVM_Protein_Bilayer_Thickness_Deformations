@@ -21,18 +21,18 @@
 
 #### Physical problem
 
-How do lipid bilayer deformations induced by a protein depend on the protein shape?
+How do lipid bilayer deformations induced by a protein depend on the protein's shape?
 
 #### Framing of the problem in mathematics 
 
 <img src="equations.png " width="1500" height="250">
 
-We truncation the infinite series that represents the general form of the bilayer deformation field to a finite number of terms, N, and applying the boundary conditions along the protein-bilayer interface to form a linear system of boundary equations which can be solved for the coefficients A_n,B_n, where n = 0,1,2,...,N.
+We truncation the infinite series that represents the general form of the bilayer deformation field to a finite number of terms, N, and applying the boundary conditions along the protein-bilayer interface to form a linear system of boundary equations which can be solved for the coefficients A_n,B_n, where n = 0,1,2,...,N. Protein shape data can be obtained through either experimental measurements or molecular dynamics simulations. Since the late 1990's many protein structures have been highly resolved through x-ray crystallography. Many of these structures are catalogued in the Proteind Data Bank (PDB) website https://www.rcsb.org. Adaptive point distributions are needed for accelerated convergence for many protein shapes of experimental and theoretical interest, which will be discussed in our manuscript.
 
 
 #### Computational obstacles and remedy
 
-Since Basset functions grow exponentially with increasing order n, floating point overflow issues and matrix conditioning issues manifest. We use Arblib library for arbitrary precision floating point calculations, choosing an appropriate precision to avoid overflow and to offset numerical instability when solving the linear system of boundary equations. 
+Since Basset functions grow exponentially with increasing order n, floating point overflow issues and matrix conditioning issues manifest. We use Arblib library for arbitrary precision floating point calculations, choosing an appropriate precision to avoid overflow and to offset numerical instability when solving the linear system of boundary equations. Numerical algorithms to solve the linear system of boundary conditions that minimize adding anymore instability to the problem, as well as being parallelizable, are discussed in the manuscript.
 
 [Back To The Top](#CSCI596FINAL)
 
@@ -65,8 +65,7 @@ Using paraview we can create a pipeline to extract the length data of the mesh e
 
 <img src="FEM_celldata.png " width="1000" height="600">
 
-We found that an accuracy of about 0.01% can be expected with finite elements of average mesh lengths of about 0.1 nm, by comparing it to analytical solutions to simple cases like a cylindrical protein.
-Testing the boundary value method for several protein shapes, we found that as the boundary value method converges to an agreement with the finite element method of  about 0.01% with increasing truncation length N, which was noted earlier as the expected accuracy of the finite element method with the actual solution.
+After measuring the accuracy of the finite element method, we compared it with the converged boundary value method and found similar agreement to the accuracy of the finite element method, which show the boundary value method appears to converge to the correct result.
 
 #### OMP thread count speed up and efficiency benchmarks
 
