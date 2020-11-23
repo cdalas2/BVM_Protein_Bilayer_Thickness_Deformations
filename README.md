@@ -57,7 +57,8 @@ We use only open-source software, so our approach is easily accessible to anyone
 
 #### OMP thread count speed up and efficiency benchmarks
 
-
+<img src="speedup.png " width="500" height="500">
+<img src="efficiency.png " width="500" height="500">
 
 #### Boundary value method benchmarked against a hybrid of finite elements and discrete Kirchoff triangles method (FEDKTM)
 The hybrid FEDKTM converges with decreasing average mesh length.
