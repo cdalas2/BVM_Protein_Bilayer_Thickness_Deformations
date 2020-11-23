@@ -10,6 +10,7 @@
 - [Problem Description](#problem-description)
 - [Software](#software)
 - [Benchmarks](#benchmarks)
+- [Installation](#installation)
 - [How To Build And Compile](#how-to-build-and-compile)
 - [References](#references)
 - [Author Info](#author-info)
@@ -73,7 +74,7 @@ Testing the boundary value method for several protein shapes, we found that as t
 
 ---
 
-#### Installation
+## Installation
 
 1. Download github repo. This will contain the necessary make file, bash script, and source code files
 2. Install Arblib library by Frederick Johansson (version 2.17 or newer). You can build from source [1] or download as a package through anaconda3.
@@ -83,6 +84,10 @@ Testing the boundary value method for several protein shapes, we found that as t
 6. Replace paths in bash script to arblib library and Carlos_membrane_project source files.
 7. Replace paths in main source code file for the location of where the data output is to be saved.
 8. Adjust OMP_NUM_THREADS environmental variable to the thread count wanted in the bash script.
+
+[Back To The Top](#CSCI596FINAL)
+
+---
 
 ## How To Build And Compile
 
