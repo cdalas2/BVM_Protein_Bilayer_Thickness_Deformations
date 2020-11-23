@@ -55,6 +55,10 @@ We use only open-source software, so our approach is easily accessible to anyone
 
 ## Benchmarks
 
+#### OMP thread count speed up and efficiency benchmarks
+
+
+
 #### Boundary value method benchmarked against a hybrid of finite elements and discrete Kirchoff triangles method (FEDKTM)
 The hybrid FEDKTM converges with decreasing average mesh length.
 Using paraview we can create a pipeline to extract the length data of the mesh elements used in the FEDKTM. We average the mesh lengths and plot the FEDKTM calculations as a function of average mesh length. 
@@ -66,8 +70,6 @@ Using paraview we can create a pipeline to extract the length data of the mesh e
 <img src="FEM_celldata.png " width="1000" height="600">
 
 After measuring the accuracy of the finite element method, we compared it with the converged BVM and found similar agreement to the accuracy of the FEDKTM, which shows the BVM appears to reliably converge to the correct result.
-
-#### OMP thread count speed up and efficiency benchmarks
 
 [Back To The Top](#CSCI596FINAL)
 
