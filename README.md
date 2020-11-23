@@ -40,7 +40,7 @@ Since Basset functions grow exponentially with increasing order n, floating poin
 
 ## Software
 
-We use only open-source software, so our approach is easily accessible to anyone with a laptop or desktop.
+We use only open-source software, so our approach is easily accessible to anyone with a laptop or desktop computer.
 
 - C++
 - Arblib library (version 2.17 or newer)
