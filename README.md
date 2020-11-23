@@ -11,7 +11,7 @@
 - [Software](#software)
 - [Benchmarks](#benchmarks)
 - [Installation](#installation)
-- [How To Build And Compile](#how-to-build-and-compile)
+- [How To Build And Run It](#how-to-build-and-run-it)
 - [References](#references)
 - [Author Info](#author-info)
 
@@ -88,11 +88,11 @@ After measuring the accuracy of the finite element method, we compared it with t
 
 ---
 
-## How To Build And Compile
+## How To Build And Run It
 
 On a terminal one can build a project run by a make file provided. Then one can compile the project run by a bash script provided. Terminal/command lines are:
 
-$ make deformations
+$ make
 
 $ bash run_deformations.sh
 
