@@ -20,7 +20,7 @@
 
 #### Physical problem
 
-Using a classical elastic continuum model for lipid bilayers, can we calculate the lipid bilayer deformation induced by a protein of arbitrary shape?
+How do lipid bilayer deformations induced by a protein depend on the protein shape?
 
 #### Framing of the problem in mathematics 
 
