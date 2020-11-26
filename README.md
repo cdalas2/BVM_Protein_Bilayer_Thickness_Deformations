@@ -57,8 +57,10 @@ We use only open-source software, so our approach is easily accessible to anyone
 
 #### OMP thread count speed up and efficiency benchmarks
 
-<img src="speedup.png " width="500" height="500">
-<img src="efficiency.png " width="500" height="500">
+<img src="speedup.png " width="500" height="375"> <img src="efficiency.png " width="500" height="375">
+
+Our plots show performance benchmarks for a truncation length N = 62 and using floating point precision of about 200 decimal places.
+We got almost a 5x speed up using only 8 threads. Efficiency decreases with increased thread count.
 
 #### Boundary value method benchmarked against a hybrid of finite elements and discrete Kirchoff triangles method (FEDKTM)
 The hybrid FEDKTM converges with decreasing average mesh length.
@@ -107,7 +109,7 @@ $ bash run_deformations.sh
 
 1. My manuscript (work in progress)
 
-2. F. Johansson. Arb: efficient arbitrary-precision midpoint-radius interval arithmetic. IEEE Transactions on Computers, 66:1281{1292, 2017.
+2. F. Johansson. Arb: efficient arbitrary-precision midpoint-radius interval arithmetic. IEEE Transactions on Computers, 66:1281-1292, 2017.
 
 3. Leonardo Dagum and Ramesh Menon. Openmp: an industry standard api for shared-memory programming. Computational Science & Engineering, IEEE, 5(1):46-55, 1998.
 
