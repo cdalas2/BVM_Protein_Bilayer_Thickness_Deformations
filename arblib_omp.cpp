@@ -3,7 +3,7 @@
 //  
 //
 //  Created by CARLOS ALAS on 10/20/20.
-//
+// Much of the code here is a multithreaded modified version of arblib code.
 
 #include "arblib_omp.hpp"
 #include <arb_mat.h>
