@@ -99,7 +99,7 @@ On a terminal one can compile a simulation by a make file provided. Then one can
 
 $ make
 
-$ bash run_deformations.sh
+$ bash run_deformation.sl
 
 [Back To The Top](#CSCI596FINAL)
 
