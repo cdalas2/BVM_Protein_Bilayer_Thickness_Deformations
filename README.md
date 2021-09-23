@@ -49,7 +49,7 @@ We use only open-source software, so our approach is easily accessible to anyone
 - OpenMPI (if you want to do calculations for multiple protein systems)
 - Paraview
 
-[Back To The Top](#CSCI596FINAL)
+[Back To The Top](#Boundary-value-method-for-protein-bilayer-thickness-deformations)
 
 ---
 
@@ -74,7 +74,7 @@ Using paraview we can create a pipeline to extract the length data of the mesh e
 
 After measuring the accuracy of the finite element method, we compared it with the converged BVM and found similar agreement to the accuracy of the FEDKTM, which shows the BVM appears to reliably converge to the correct result.
 
-[Back To The Top](#CSCI596FINAL)
+[Back To The Top](#Boundary-value-method-for-protein-bilayer-thickness-deformations)
 
 ---
 
@@ -89,7 +89,7 @@ MAIN CODE UNAVAILABLE UNTIL AFTER WORK IS PUBLISHED
 7. Replace paths in main source code file for the location of where the data output is to be saved.
 8. Adjust OMP_NUM_THREADS environmental variable to the thread count wanted in the bash script.
 
-[Back To The Top](#CSCI596FINAL)
+[Back To The Top](#Boundary-value-method-for-protein-bilayer-thickness-deformations)
 
 ---
 
@@ -101,7 +101,7 @@ $ make
 
 $ bash run_deformation.sl
 
-[Back To The Top](#CSCI596FINAL)
+[Back To The Top](#Boundary-value-method-for-protein-bilayer-thickness-deformations)
 
 ---
 
@@ -120,7 +120,7 @@ $ bash run_deformation.sl
 6. Ayachit, Utkarsh, The ParaView Guide: A Parallel Visualization Application, Kitware, 2015, ISBN 978-1930934306
 
 
-[Back To The Top](#CSCI596FINAL)
+[Back To The Top](#Boundary-value-method-for-protein-bilayer-thickness-deformations)
 
 ---
 
@@ -130,4 +130,4 @@ $ bash run_deformation.sl
 - ResearchGate - [Carlos Alas RG](https://www.researchgate.net/profile/Carlos_Alas3)
 This project was brought to life by Carlos D. Alas under the supervision of Christoph A. Haselwandter
 
-[Back To The Top](#CSCI596FINAL)
+[Back To The Top](#Boundary-value-method-for-protein-bilayer-thickness-deformations)
