@@ -1,4 +1,4 @@
-# Boundary value method for protein-bilayer thickness deformations
+# Boundary value method for protein bilayer thickness deformations
 <img src="BilayerAndProteinSurface.png">
 
 > A numerical boundary value method (BVM) for protein-induced bilayer deformation calculations
@@ -34,7 +34,7 @@ We truncation the infinite series that represents the general form of the bilaye
 
 Since Basset functions grow exponentially with increasing order n, floating point overflow issues and matrix conditioning issues manifest. We use Arblib library for arbitrary precision floating point calculations, choosing an appropriate precision to avoid overflow and to offset numerical instability when solving the linear system of boundary equations. Numerical algorithms to solve the linear system of boundary conditions that minimize adding anymore instability to the problem, as well as being parallelizable, are discussed in the manuscript.
 
-[Back To The Top](#CSCI596FINAL)
+[Back To The Top](#Boundary-value-method-for-protein-bilayer-thickness-deformations)
 
 ---
 
