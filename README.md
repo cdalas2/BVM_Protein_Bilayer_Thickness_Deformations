@@ -1,4 +1,4 @@
-# Boundary value method for Protein-Bilayer thickness deformations
+# Boundary value method for protein-bilayer thickness deformations
 <img src="clover_bilayer_surface.png">
 
 > A numerical boundary value method (BVM) for protein-induced bilayer deformation calculations
