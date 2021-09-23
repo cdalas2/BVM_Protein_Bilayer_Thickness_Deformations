@@ -1,5 +1,5 @@
 # Boundary value method for protein-bilayer thickness deformations
-<img src="clover_bilayer_surface.png">
+<img src="BilayerAndProteinSurface.pdf">
 
 > A numerical boundary value method (BVM) for protein-induced bilayer deformation calculations
 
@@ -79,7 +79,7 @@ After measuring the accuracy of the finite element method, we compared it with t
 ---
 
 ## Installation
-
+MAIN CODE UNAVAILABLE UNTIL AFTER WORK IS PUBLISHED
 1. Download github repo. This will contain the necessary make file, bash script, and source code files
 2. Install Arblib library by Frederick Johansson (version 2.17 or newer). You can build from source [1] or download as a package through anaconda3.
 3. Install OpenMP.
